@@ -401,4 +401,4 @@ api-tarefas/
 
 ## 14. Observação sobre erros de validação
 
-Se o corpo da requisição for inválido (um campo faltando, por exemplo), o `parse` do Zod lança um erro e o Fastify responde com `500`. Isso já era assim no Dia 1 e fica fora do escopo de hoje, que é só o CRUD com Prisma. Tratar esses erros e devolver `400` pode ser um tópico para a próxima aula.
+Se o corpo da requisição for inválido (um campo faltando, por exemplo), o `parse` do Zod lança um erro e o Fastify responde com `500`. Isso já era assim antes e fica fora do escopo de hoje, que é só o CRUD com Prisma.
